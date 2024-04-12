@@ -1,0 +1,26 @@
+/* put bg image to the banner */
+.banner {
+    background: url(/images/flower-banner.jpg) no-repeat center;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.about-me {
+    background: url(/images/flower-about.jpg) no-repeat center;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+/* No background in mobile mode */
+@media screen and (max-width: 576px) {
+    .banner, .about-me {
+        background-image: none;
+    }
+}
+
+/* Set height for the projects card in desktop mode */
+@media screen and (min-width: 992px) {
+    .prj {
+        height: 670px;
+    }
+}
