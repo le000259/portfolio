@@ -2,13 +2,19 @@
 .banner {
     background: url(/images/flower-banner.jpg) no-repeat center;
     background-size: cover;
-    opacity: 0.8;
+    background-blend-mode: overlay;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* put opacity on the div but not affecting the inside children */
+.banner .pink-pad {
+    background-color: #d29c9ccb !important;
 }
 
 .about-me {
     background: url(/images/flower-about.jpg) no-repeat center;
     background-size: cover;
-    opacity: 0.8;
+    filter: opacity(90%);
 }
 
 /* No background in mobile mode */
