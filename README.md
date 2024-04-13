@@ -25,4 +25,18 @@ The menu item -> contact: I changed the default background color to none to make
 
 The works page -> mobile & tablet scroll. I notice that we can use touch screen on mobile and tablet therefore it is no need to have the next and back button. Also, since i don't have a lot to show, it would be better to have a single page showing all my projects. So i did not keep the 
 
+5. Image Optimization Ratio 
+
+| Profile Picture | 1x  | 2x  | 3x  |
+|-----------------|-----|-----|-----|
+| Mobile (<=576)  | 180 | 360 | 540 |
+| Tablet (>=577)  | 360 | 720 | 1080|
+| Desktop (>=992) | 479 | 958 | 1437|
+
+| Works        | 1x  | 2x   | 3x   |
+|--------------|-----|------|------|
+| Mobile (<=576)| 270 | 540  | 810  |
+| Tablet (>=577)| 684 | 1368 | 2052 |
+| Desktop (>=992)| 684 | 1368 | 2052 |
+
 
