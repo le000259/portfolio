@@ -21,7 +21,7 @@
 </head>
 
 <body>
-    
+
     <!-- skip links -->
     <ul role="list" class="skip-links">
         <li><a href="#menu-container">Skip to main nav</a></li>
@@ -38,7 +38,7 @@
                 <a class="navbar-brand" href="/index.html" itemscope itemtype="https://schema.org/Organization"><img
                         itemprop="logo" src="/images/logo.png" alt="Patrick's logo" class="logo"></a>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                <button class="navbar-toggler border-0 bg-secondary p-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-icon">MENU</span>
                 </button>
@@ -46,16 +46,16 @@
                 <!-- nav bar items -->
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item mx-5 p-2 rounded-4 text-center">
+                        <li class="nav-item item-1 mx-5 p-2 rounded-4 text-center">
                             <a class="nav-link" href="/index.html">HOME</a>
                         </li>
-                        <li class="nav-item mx-5 p-2 rounded-4 text-center">
+                        <li class="nav-item item-1 mx-5 p-2 rounded-4 text-center">
                             <a class="nav-link" href="/works.html">WORKS</a>
                         </li>
-                        <li class="nav-item mx-5 p-2 rounded-4 text-center">
+                        <li class="nav-item item-1 mx-5 p-2 rounded-4 text-center">
                             <a class="nav-link active" aria-current="page" href="/about.html">ABOUT</a>
                         </li>
-                        <li class="nav-item mx-5 p-2 rounded-4 bg-secondary text-center">
+                        <li class="nav-item item-2 mx-5 p-2 rounded-4 text-center">
                             <a class="nav-link" href="/contact.html">CONTACT</a>
                         </li>
 
@@ -67,7 +67,7 @@
     <main>
 
         <div class="container-fluid text-center py-5" id="divider">
-            <div class="row g-5">
+            <div class="row">
                 <div class="col-lg-6 col-12">
                     <picture>
                         <source srcset="images/profile-pic/profile-pic-479p.png,
@@ -82,16 +82,17 @@
                         <img class="rounded-4" src="/images/profile-pic/profile-pic-360p.png" alt="profile">
                     </picture>
                 </div>
-                <div class="col-lg-6 col-12 text-lg-start p-5">
-                    <div class="px-5">
-                        <h5>I would like go on a journey to become a web developer in this digital era as the web
+                <div class="col-lg-6 col-12">
+                    <div class="p-5 text-lg-start d-flex flex-column align-items-center">
+                        <p class="h5">I would like go on a journey to become a web developer in this digital era as the
+                            web
                             becomes incredibly important to showcase oneself on the internet. With my playful and
                             creative mind as well as my years of experience as a film producer, I aim to bring a fresh
                             narrative into the digital realm. My objective is to make a distinct and unique appearance
                             for every site that I make, merging my storytelling skills with innovative web development
-                            technology to leave a long-lasting impression.</h5>
-                        <a class="btn btn-outline-primary rounded-5 border-3 my-5 py-1" href="doc/resume.pdf" target="_blank"
-                            role="button">résumé</a>
+                            technology to leave a long-lasting impression.</p>
+                        <a class="btn btn-outline-primary rounded-5 border-3 my-5 py-1 d-inline-block"
+                            href="doc/resume.pdf" target="_blank" role="button">résumé</a>
                     </div>
                 </div>
 
@@ -103,7 +104,7 @@
     <footer>
         <div class="hstack justify-content-sm-between justify-content-center">
             <div class="p-4 d-none d-sm-block">
-                <h4>web designer & developer</h4>
+                <p class="h4">web designer & developer</p>
             </div>
             <div class="p-4">
                 <a class="navbar-brand" href="/index.html" itemscope itemtype="https://schema.org/Organization"><img

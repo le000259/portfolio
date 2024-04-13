@@ -7,9 +7,9 @@
 }
 
 /* put opacity on the div but not affecting the inside children */
-.banner .pink-pad {
+/* .banner .pink-pad {
     background-color: #d29c9ccb !important;
-}
+} */
 
 .about-me {
     background: url(/images/flower-about.jpg) no-repeat center;
