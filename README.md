@@ -23,4 +23,6 @@ Other materials owned by me.
 
 The menu item -> contact: I changed the default background color to none to make it less confused.
 
+The works page -> mobile & tablet scroll. I notice that we can use touch screen on mobile and tablet therefore it is no need to have the next and back button. Also, since i don't have a lot to show, it would be better to have a single page showing all my projects. So i did not keep the 
+
 
