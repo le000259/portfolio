@@ -1,0 +1,14 @@
+/* change bg color of each element when changing viewport */
+.blue-pad, .blue-pad-1, .blue-pad-2 {
+    background-color: var(--bs-info);
+}
+
+@media screen and (max-width: 576px) {
+    .blue-pad-2, .blue-pad {
+        background-color: white;
+    }
+
+    input[type="text"], textarea {
+        background-color: lightgrey;
+    }
+}
