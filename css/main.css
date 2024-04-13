@@ -1,6 +1,6 @@
 /* put bg image to the banner */
 .banner {
-    background: url(../images/flower-banner.jpg) no-repeat center;
+    background: url('../images/flower-banner.jpg') no-repeat center;
     background-size: cover;
     background-blend-mode: overlay;
     background-color: rgba(255, 255, 255, 0.5);
@@ -12,7 +12,7 @@
 } */
 
 .about-me {
-    background: url(../images/flower-about.jpg) no-repeat center;
+    background: url('../images/flower-about.jpg') no-repeat center;
     background-size: cover;
     filter: opacity(90%);
 }
