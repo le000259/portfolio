@@ -8,7 +8,7 @@
         background-color: white;
     }
 
-    input[type="text"], textarea {
+    .form-control {
         background-color: lightgrey;
     }
 }
