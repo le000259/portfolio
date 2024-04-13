@@ -30,3 +30,14 @@
         height: 670px;
     }
 }
+
+/* change bg color of each element when changing viewport */
+.pink-pad, .pink-pad-1, .pink-pad-2 {
+    background-color: var(--bs-secondary);
+}
+
+@media screen and (max-width: 576px) {
+    .pink-pad-2, .pink-pad {
+        background-color: initial;
+    }
+}
